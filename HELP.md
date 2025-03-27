@@ -1,0 +1,16 @@
+# MySQL init
+CREATE DATABASE security_test CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE USER 'security'@'%' IDENTIFIED BY '1q2w3e4r!';
+GRANT ALL PRIVILEGES ON security_test.* TO 'security'@'%' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+
+
+# DDL 
+
+CREATE TABLE user_tbl (
+user_id BIGINT AUTO_INCREMENT PRIMARY KEY,
+username VARCHAR(20) NOT NULL,
+password VARCHAR(20) NOT NULL,
+role VARCHAR(20) NOT NULL
+);
+
