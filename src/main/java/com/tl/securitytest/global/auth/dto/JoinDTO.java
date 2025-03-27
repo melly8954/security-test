@@ -1,4 +1,4 @@
-package com.tl.securitytest.domain.user.dto;
+package com.tl.securitytest.global.auth.dto;
 
 import lombok.Getter;
 import lombok.Setter;

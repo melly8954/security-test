@@ -1,6 +1,6 @@
 package com.tl.securitytest.global.auth.controller;
 
-import com.tl.securitytest.domain.user.dto.JoinDTO;
+import com.tl.securitytest.global.auth.dto.JoinDTO;
 import com.tl.securitytest.domain.user.service.JoinService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

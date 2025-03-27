@@ -1,6 +1,6 @@
 package com.tl.securitytest.domain.user.service;
 
-import com.tl.securitytest.domain.user.dto.JoinDTO;
+import com.tl.securitytest.global.auth.dto.JoinDTO;
 import com.tl.securitytest.domain.user.entity.UserEntity;
 import com.tl.securitytest.domain.user.repository.UserRepository;
 import lombok.extern.slf4j.Slf4j;
