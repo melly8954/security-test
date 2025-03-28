@@ -5,6 +5,8 @@ server:
       charset: UTF-8
       enabled: true
       force: true
+    session:
+      timeout: 90m  # 90분 유지
 
 spring:
   application:
