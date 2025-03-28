@@ -27,4 +27,14 @@ public class IndexController {
 
         return "index";
     }
+
+    @GetMapping("/manager")
+    public String manager() {
+        return "manager";
+    }
+
+    @GetMapping("/user")
+    public String user() {
+        return "user";
+    }
 }
