@@ -1,4 +1,4 @@
-package com.tl.securitytest.global.security;
+package com.tl.securitytest.global.auth.security;
 
 import com.tl.securitytest.domain.user.entity.UserEntity;
 import org.springframework.security.core.GrantedAuthority;
